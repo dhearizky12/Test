@@ -1,0 +1,41 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+**/bin/**
+**/obj/**
+**/node_modules/**
+**/**.suo
+**/**.user
+
+*.suo
+/.vs/Flex/v14/*.suo
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+*.ipch
+*.bak
+
+**/packages/**
+/*.pyc
+*.pyc
+*.ide
+*.DotSettings
+**/.vs/**
+/Formulatrix.Flo.Vision/Debug
+/FloArtifacts
+**TestResults**
+
+# jetbrains rider
+.idea
+Formulatrix.Flo.Webserver2/wwwroot/
+# WebClient/controlpanel/public/
+WebClient/experiment-designer/node_modules.zip
+Formulatrix.Flo.WebServer/_temp_upload/
+
+.fake
+# macOS specific files
+.DS_Store
