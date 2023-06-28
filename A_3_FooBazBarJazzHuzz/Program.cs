@@ -27,8 +27,10 @@ class Program
         Dictionary<int, string> outputMap = new Dictionary<int, string>()
         {
             { 3, "foo" },
+            { 4, "baz" },
             { 5, "bar" },
-            { 7, "jazz" }
+            { 7, "jazz" },
+            { 9, "huzz" },
         };
 
         for (int x = 1; x <= n; x++)

@@ -1,4 +1,6 @@
-﻿class Program
+﻿using System;
+
+class Program
 {
     static void Main()
     {
@@ -31,13 +33,16 @@ class FoobarPrinter
         for (int x = 1; x <= n; x++)
         {
             if (x % 3 == 0 && x % 5 == 0)
-                Console.Write("foobar ");
+                Console.Write("foobar");
             else if (x % 3 == 0)
-                Console.Write("foo ");
+                Console.Write("foo");
             else if (x % 5 == 0)
-                Console.Write("bar ");
+                Console.Write("bar");
             else
-                Console.Write(x + " ");
+                Console.Write(x);
+
+            if (x < n)
+                Console.Write(", ");
         }
         Console.WriteLine(); // New line after printing all numbers
     }
